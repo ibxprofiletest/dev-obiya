@@ -1,0 +1,180 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/docs",
+      "dest": "/docs.html"
+    },
+    {
+      "src": "/manifesto",
+      "dest": "/manifesto.html"
+    },
+    {
+      "src": "/privacy-policy",
+      "dest": "/privacy-policy.html"
+    },
+    {
+      "src": "/rive/(.*)",
+      "dest": "/rive/$1"
+    },
+    {
+      "src": "/_next/(.*)",
+      "dest": "/_next/$1"
+    },
+    {
+      "src": "/docs/getting-started/quick-start",
+      "dest": "/docs/getting-started/quick-start.html"
+    },
+    {
+      "src": "/docs/getting-started/build-your-first-app/build-your-first-background-jobs",
+      "dest": "/docs/getting-started/build-your-first-app/build-your-first-background-jobs.html"
+    },
+    {
+      "src": "/docs/getting-started/build-your-first-app/creating-your-first-rest-api",
+      "dest": "/docs/getting-started/build-your-first-app/creating-your-first-rest-api.html"
+    },
+    {
+      "src": "/docs/concepts/steps/api",
+      "dest": "/docs/concepts/steps/api.html"
+    },
+    {
+      "src": "/docs/concepts/steps/event",
+      "dest": "/docs/concepts/steps/event.html"
+    },
+    {
+      "src": "/docs/concepts/steps/defining-steps",
+      "dest": "/docs/concepts/steps/defining-steps.html"
+    },
+    {
+      "src": "/docs/concepts/steps/cron",
+      "dest": "/docs/concepts/steps/cron.html"
+    },
+    {
+      "src": "/docs/concepts/flows-and-visualization",
+      "dest": "/docs/concepts/flows-and-visualization.html"
+    },
+    {
+      "src": "/docs/concepts/state-management",
+      "dest": "/docs/concepts/state-management.html"
+    },
+    {
+      "src": "/docs/concepts/environment-variables",
+      "dest": "/docs/concepts/environment-variables.html"
+    },
+    {
+      "src": "/docs/concepts/streams",
+      "dest": "/docs/concepts/streams.html"
+    },
+    {
+      "src": "/docs/concepts/logging-and-debugging",
+      "dest": "/docs/concepts/logging-and-debugging.html"
+    },
+    {
+      "src": "/docs/concepts/testing",
+      "dest": "/docs/concepts/testing.html"
+    },
+    {
+      "src": "/docs/concepts/cli",
+      "dest": "/docs/concepts/cli.html"
+    },
+    {
+      "src": "/docs/concepts/deployment/getting-started",
+      "dest": "/docs/concepts/deployment/getting-started.html"
+    },
+    {
+      "src": "/docs/concepts/deployment/motia-cloud",
+      "dest": "/docs/concepts/deployment/motia-cloud.html"
+    },
+    {
+      "src": "/docs/concepts/deployment/self-hosted",
+      "dest": "/docs/concepts/deployment/self-hosted.html"
+    },
+    {
+      "src": "/docs/ai-guides/overview",
+      "dest": "/docs/ai-guides/overview.html"
+    },
+    {
+      "src": "/docs/ai-guides/setup-guide",
+      "dest": "/docs/ai-guides/setup-guide.html"
+    },
+    {
+      "src": "/docs/workbench/overview",
+      "dest": "/docs/workbench/overview.html"
+    },
+    {
+      "src": "/docs/workbench/ui-steps",
+      "dest": "/docs/workbench/ui-steps.html"
+    },
+    {
+      "src": "/docs/real-world-use-cases/gmail-automation",
+      "dest": "/docs/real-world-use-cases/gmail-automation.html"
+    },
+    {
+      "src": "/docs/real-world-use-cases/github-integration-workflow",
+      "dest": "/docs/real-world-use-cases/github-integration-workflow.html"
+    },
+    {
+      "src": "/docs/real-world-use-cases/finance-agent",
+      "dest": "/docs/real-world-use-cases/finance-agent.html"
+    },
+    {
+      "src": "/docs/real-world-use-cases/ai-deep-research-agent",
+      "dest": "/docs/real-world-use-cases/ai-deep-research-agent.html"
+    },
+    {
+      "src": "/docs/real-world-use-cases/trello-automation",
+      "dest": "/docs/real-world-use-cases/trello-automation.html"
+    },
+    {
+      "src": "/docs/examples/sentiment-analysis",
+      "dest": "/docs/examples/sentiment-analysis.html"
+    },
+    {
+      "src": "/docs/examples/multi-language-data-processing",
+      "dest": "/docs/examples/multi-language-data-processing.html"
+    },
+    {
+      "src": "/docs/examples/rag-docling-weaviate",
+      "dest": "/docs/examples/rag-docling-weaviate.html"
+    },
+    {
+      "src": "/docs/examples/uptime-discord-monitor",
+      "dest": "/docs/examples/uptime-discord-monitor.html"
+    },
+    {
+      "src": "/docs/contribution/how-to-contribute",
+      "dest": "/docs/contribution/how-to-contribute.html"
+    },
+    {
+      "src": "/docs/getting-started/build-your-first-app",
+      "dest": "/docs/getting-started/build-your-first-app.html"
+    },
+    {
+      "src": "/docs/concepts",
+      "dest": "/docs/concepts.html"
+    },
+    {
+      "src": "/docs/real-world-use-cases",
+      "dest": "/docs/real-world-use-cases.html"
+    },
+    {
+      "src": "/docs/examples",
+      "dest": "/docs/examples.html"
+    },
+    {
+      "src": "/docs/community-resources",
+      "dest": "/docs/community-resources.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+    
+  ]
+}
