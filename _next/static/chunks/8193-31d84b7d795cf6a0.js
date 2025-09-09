@@ -320,7 +320,7 @@
           blurHeight: 0,
         },
         o = {
-          src: "/_next/static/media/footerWordmark.c1f08560.svg",
+          src: "/_next/static/media/footer.png",
           height: 263,
           width: 1200,
           blurWidth: 0,
