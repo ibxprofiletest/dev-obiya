@@ -112,6 +112,10 @@
       "dest": "/docs/workbench/ui-steps.html"
     },
     {
+      "src": "/docs/workbench/noop-steps",
+      "dest": "/docs/workbench/noop-steps.html"
+    },
+    {
       "src": "/docs/real-world-use-cases/gmail-automation",
       "dest": "/docs/real-world-use-cases/gmail-automation.html"
     },
